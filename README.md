@@ -3,9 +3,13 @@
 
 # Deadlock2Dire
 
-Extension for rendering Deadlock patch notes in a Dota2-style layout.
+Brower extension for rendering Deadlock patch notes in a Dota2-style layout.
 
 It's not perfect, but neither am I.
+
+<img width="1191" height="1016" alt="image" src="https://github.com/user-attachments/assets/4f737f71-904a-47ae-9663-7af5917508f7" />
+<img width="1192" height="965" alt="image" src="https://github.com/user-attachments/assets/c621f3a6-d762-494e-bfd0-492c62fe8a93" />
+
 
 The extension only injects on:
 
@@ -37,7 +41,7 @@ https://forums.playdeadlock.com/forums/changelog.10/*
 > [!CAUTION]
 > This is for people who know what userscripts are.
 
-Download the `Deadlock2Dire.user.js` script from the GitHub Releases page.
+Download the `Deadlock2Dire.user.js` script from the GitHub Releases page. Here's a video example for ViolentMonkey (just use `Deadlock2Dire.user.js` file from the release page instead of the `PoE2Dire.user.json`): [https://www.youtube.com/watch?v=cgWVGSAxoEY](https://www.youtube.com/watch?v=cgWVGSAxoEY)
 
 In short, it goes like this:
 
@@ -86,11 +90,14 @@ But, keep in mind, my decades of writing hacky JS code might feel strange, cause
 
 Please, consider any of these little support options:
 
-Leave a GitHub Star.
+⭐ Leave a GitHub Star ⭐
 
-[Buy me a coffee <3](https://buymeacoffee.com/aisatan)
+☕ [Buy me a coffee <3](https://buymeacoffee.com/aisatan) ☕
 
-[Donate to Blender Foundation](https://fund.blender.org/donate-once/)
+<img width="32" height="32" alt="blender_emoji_transparent_32" src="https://github.com/user-attachments/assets/02ac03f9-3dd0-4674-8ea2-03b38e0e1f81" />[Donate to Blender Foundation](https://fund.blender.org/donate-once/)
+<img width="32" height="32" alt="blender_emoji_transparent_32" src="https://github.com/user-attachments/assets/1e6fa180-211d-4658-9b4f-c549a336a75e" />
+
+
 
 
 ## Asset Notice
