@@ -21,7 +21,7 @@ https://forums.playdeadlock.com/forums/changelog.10/*
 ## How to use?
 
 0. Install with instructions below
-1. Go to any Deadlock patch notes forum page.
+1. Go to any Deadlock patch notes forum page ([for example this one](https://forums.playdeadlock.com/threads/01-30-2026-update.102822/))
 2. Click the Deadlock2Dire icon to activate it.
 3. Done.
 4. You can click it again to deactivate, or simply reload.
