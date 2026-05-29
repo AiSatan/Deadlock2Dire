@@ -1,6 +1,10 @@
   function findSourceRoot(doc) {
-    const candidates = CONFIG.rootSelectors
+    const threadRoot = findThreadSourceRoot(doc);
+    if (threadRoot) return threadRoot;
+
+    const candidates = uniqueNodes(CONFIG.rootSelectors
       .flatMap((selector) => Array.from(doc.querySelectorAll(selector)))
+    )
       .filter((node) => isPatchNotesText(textOf(node)))
       .map((node) => ({
         node,
@@ -9,6 +13,27 @@
       }));
 
     return candidates.sort((a, b) => b.score - a.score || b.length - a.length)[0]?.node || null;
+  }
+
+  function findThreadSourceRoot(doc) {
+    const roots = uniqueNodes([
+      "article.message .bbWrapper",
+      ".message-body .bbWrapper",
+    ].flatMap((selector) => Array.from(doc.querySelectorAll(selector))))
+      .filter((node) => isPatchNotesText(textOf(node)));
+
+    if (roots.length < 2) return null;
+    return createCombinedSourceRoot(doc, roots);
+  }
+
+  function createCombinedSourceRoot(doc, roots) {
+    const root = doc.createElement("div");
+    root.textContent = roots.map(textOf).join("\n");
+    return root;
+  }
+
+  function uniqueNodes(nodes) {
+    return Array.from(new Set(nodes));
   }
 
   function isPatchNotesText(text) {
