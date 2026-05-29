@@ -30,7 +30,7 @@ https://forums.playdeadlock.com/forums/changelog.10/*
 
 ### Install on Chrome
 
-[Chrome WebStore](https://exmaple.com)
+[Chrome WebStore](https://exmaple.com) (Waiting for approval)
 
 ### Install on Firefox
 
