@@ -34,7 +34,7 @@ https://forums.playdeadlock.com/forums/changelog.10/*
 
 ### Install on Firefox
 
-[Firefox Browser Add-ons Page](https://exmaple.com)
+[Firefox Browser Add-ons Page](https://addons.mozilla.org/en-US/firefox/addon/deadlock2dire/) (Waiting for approval)
 
 ### Install as a userscript
 
