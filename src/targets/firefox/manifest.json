@@ -10,9 +10,6 @@
     "48": "assets/icons/Deadlock2Dire-icon-48.png",
     "128": "assets/icons/Deadlock2Dire-icon-128.png"
   },
-  "host_permissions": [
-    "https://forums.playdeadlock.com/*"
-  ],
   "action": {
     "default_title": "Click to activate",
     "default_icon": {
