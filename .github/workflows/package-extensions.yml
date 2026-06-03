@@ -85,16 +85,19 @@ jobs:
         run: |
           cat > release-notes-prefix.md <<'EOF'
           > [!NOTE]
-          > Please read installation instructions on the main page, you don't have to download anything here.
+          > Please read [installation instructions](https://github.com/AiSatan/Deadlock2Dire#install-options) on the main page.
           >
           > ### Install on Chrome
-          > [Chrome WebStore](https://exmaple.com)
+          > [Chrome WebStore](https://chromewebstore.google.com/detail/deadlock2dire/ljceclmobnnldiilefjpgcbaiaeoopnh?authuser=0&hl=en)
           >
           > ### Install on Firefox
           > [Firefox Browser Add-ons Page](https://addons.mozilla.org/en-US/firefox/addon/deadlock2dire/)
           >
           > ### Userscript users
-          > Install the `Deadlock2Dire.user.js` release asset with Tampermonkey or Violentmonkey.
+          > Download and install the `Deadlock2Dire.user.js` release asset.
+          >
+          > ### Phone bookmarklet
+          > Use the README bookmarklet that loads https://aisatan.github.io/Deadlock2Dire/Deadlock2Dire-bookmarklet.js
           EOF
 
       - name: Publish GitHub release
