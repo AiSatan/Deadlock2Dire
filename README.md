@@ -30,11 +30,11 @@ https://forums.playdeadlock.com/forums/changelog.10/*
 
 ### Install on Chrome
 
-[Chrome WebStore](https://exmaple.com) (Waiting for approval)
+[Chrome WebStore](https://chromewebstore.google.com/detail/deadlock2dire/ljceclmobnnldiilefjpgcbaiaeoopnh?authuser=0&hl=en)
 
 ### Install on Firefox
 
-[Firefox Browser Add-ons Page](https://addons.mozilla.org/en-US/firefox/addon/deadlock2dire/) (Waiting for approval)
+[Firefox Browser Add-ons Page](https://addons.mozilla.org/en-US/firefox/addon/deadlock2dire/)
 
 ### Install as a userscript
 
