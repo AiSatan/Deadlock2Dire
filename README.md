@@ -3,7 +3,7 @@
 
 # Deadlock2Dire
 
-Brower extension for rendering Deadlock patch notes in a Dota2-style layout. (Alternative version of [https://github.com/AiSatan/PoE2Dire](https://github.com/AiSatan/PoE2Dire))
+Browser extension for rendering Deadlock patch notes in a Dota2-style layout. (Alternative version of [https://github.com/AiSatan/PoE2Dire](https://github.com/AiSatan/PoE2Dire))
 
 It's not perfect, but neither am I.
 
